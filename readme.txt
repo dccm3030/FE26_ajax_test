@@ -17,3 +17,8 @@ git add . /* add t?t c? các file
 git commit -m "ghi chú code"
 // câu l?nh giúp d?y code t? local repos -> remote repos
 git push origin <tên nhánh>
+
+// câu l?nh t?o nhánh
+git branch <tên branch>  dang d?ng ? branch nào t?o nhánh thì t? d?ng copy source t? nhánh dang d?ng quá nhánh m?i t?o
+// câu l?nh chuy?n nhánh
+git checkout <tên nhánh mu?n chuy?n>

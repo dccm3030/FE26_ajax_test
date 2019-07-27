@@ -2,6 +2,10 @@
 
 $(document).ready(function() {
 
+    function ThemNguoidung() {
+        console.log("ThemNguoidung");
+    }
+
     function HienThi(MangHienThi) {
         var tbodyNguoiDung = $("#tblDanhSachNguoiDung");
         var content = "";
