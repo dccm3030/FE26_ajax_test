@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //kéo thùng ch?a v? máy tính
 git clone " url() trên github"
 
@@ -22,3 +23,6 @@ git push origin <tên nhánh>
 git branch <tên branch>  dang d?ng ? branch nào t?o nhánh thì t? d?ng copy source t? nhánh dang d?ng quá nhánh m?i t?o
 // câu l?nh chuy?n nhánh
 git checkout <tên nhánh mu?n chuy?n>
+=======
+this is phong_oc_cho's code
+>>>>>>> master

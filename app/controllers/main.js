@@ -2,8 +2,8 @@
 
 $(document).ready(function() {
 
-    function ThemNguoidung() {
-        console.log(ThemNguoidung);
+    function ThemNguoiDung() {
+        console.log(ThemNguoiDung);
     }
 
     function HienThi(MangHienThi) {
