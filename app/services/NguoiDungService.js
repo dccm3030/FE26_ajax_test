@@ -1,0 +1,24 @@
+function NguoiDungService() {
+    // Lấy danh sách người dùng
+    this.LayDanhSachNguoiDung = function() {
+        return $.ajax({
+            url: "http://svcy.myclass.vn/api/QuanLyTrungTam/DanhSachNguoiDung",
+            type: "GET"
+        })
+    };
+    //them nguoi dung
+    this.ThemNguoiDung = function(nguoiDungMoi) {
+        return $.ajax({
+            url: "http://svcy.myclass.vn/api/QuanLyTrungTam/ThemNguoiDung",
+            type: "POST",
+            data: nguoiDungMoi
+        })
+    };
+    //xoa nguoi dung
+    this.XoaNguoiDung = function(id) {
+        return $.ajax({
+            url: `http://svcy.myclass.vn/api/QuanLyTrungTam/XoaNguoiDung/${id}`,
+            type: "DELETE",
+        })
+    };
+}
