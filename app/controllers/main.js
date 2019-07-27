@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
     function ThemNguoidung() {
-        console.log("ThemNguoidung");
+        console.log(ThemNguoidung);
     }
 
     function HienThi(MangHienThi) {
