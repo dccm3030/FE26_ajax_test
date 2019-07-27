@@ -1,19 +1,19 @@
-//kéo thùng ch?a v? máy tính
-git clone " url() trên github"
+//kÃ©o thÃ¹ng chá»©a vÃ o mÃ¡y tÃ­nh
+git clone " url() trÃªn github"
 
-// câu l?nh config l?n d?u khi t?o git, nh?ng l?n sau déo c?n
-git config --global user.name " tên user"
-git config --global user.email "tên email, trùng v?i tk github"
+// cÃ¢u lá»‡nh config l?n d?u khi t?o git, nhá»¯ng láº§n sau dÃ©o cáº§n
+git config --global user.name " tÃªn user"
+git config --global user.email "tÃªn email, trÃ¹ng v?i tk github"
 
-// câu l?nh ki?m tra tr?ng thái
+// cÃ¢u lá»‡nh kiá»ƒm tra tráº¡ng thÃ¡i
 git status
 	/* 
-		n?u tr?ng thái màu d?: ? phân vùng Working copy
-		n?u tr?ng thái màu xanh: ? phân vùng Staging area
+		n?u tr?ng thÃ¡i mÃ u dá»: ? phÃ¢n vÃ¹ng Working copy
+		n?u tr?ng thÃ¡i mÃ u xanh: ? phÃ¢n vÃ¹ng Staging area
 	/*
-// câu l?nh di chuy?n code t? Working -> stagging
-git add . /* add t?t c? các file
-// câu l?nh giúp di chuy?n code t? Staging -> local repository
-git commit -m "ghi chú code"
-// câu l?nh giúp d?y code t? local repos -> remote repos
-git push origin <tên nhánh>
+// cÃ¢u l?nh di chuyá»ƒn code t? Working -> stagging
+git add . /* add táº¥t cáº£ cÃ¡c file
+// cÃ¢u l?nh giÃºp di chuyá»ƒn code t? Staging -> local repository
+git commit -m "ghi chÃº code"
+// cÃ¢u lá»‡nh giÃºp dáº©y code t? local repos -> remote repos
+git push origin <tÃªn nhÃ¡nh>
